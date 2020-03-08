@@ -1,0 +1,35 @@
+<resources>
+    <!-- TODO changed the tittle -->
+    <string name="app_name">WHAT TITTLE WE SHOULD USE?</string>
+    <string name="activity_main_button1">Lista</string>
+    <string name="activity_main_button2">Mapa</string>
+    <string name="activity_main_button3">Nowa awaria</string>
+    <string name="activity_list_text1">Awarie:</string>
+    <string name="activity_list_text2">Nazwa</string>
+    <string name="activity_list_text3">Data</string>
+    <string name="activity_list_text4">Ocena</string>
+    <string name="activity_list_text5">Szczegóły</string>
+    <string name="activity_detail_buton1">Powrót</string>
+    <string name="activity_summary_text1">Podsumowanie</string>
+    <string name="activity_summary_text2">Przybliżona lokalizacja</string>
+    <string name="activity_summary_text3">Zdjęcie zdarzenia</string>
+    <string name="activity_summary_text4">Dziękujemy za wysłanie zgłószenia!</string>
+    <string name="activity_summary_buton1">Edytuj</string>
+    <string name="activity_summary_buton2">Wyślij zgłoszenie</string>
+    <string name="title_activity_maps_with_camera">Map</string>
+    <string name="title_activity_maps">Google MAP</string>
+    <string name="welcome_text">Hej Łukasz,</string>
+    <string name="welcome_text_advice">Obecnie ogranicz przebywanie na zewnątrz!</string>
+    <string name="accidentDistanceDefault">5 km</string>
+    <string name="accidentDescriptionDefault">Accident description</string>
+    <string name="accidenceDefault">12h 2min</string>
+    <string name="accidentPlaceDefault">Street</string>
+    <string name="hej_lukasz_o">Hej Łukasz,\nobecnie ogranicz przebywanie na zewnątrz</string>
+    <string name="some_id">2</string>
+    <string name="mapa">MAPA</string>
+    <string name="report_accident">ZGŁOŚ JAKO NIEPRAWIDŁOWA</string>
+    <string name="fragment_event_detail_place">Nowy Kleparzafefefe</string>
+    <string name="text_view_description_1">Description 1.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</string>
+    <string name="text_view_description_2">Description 2.Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/relative_corners">
+
+    <View
+        android:id="@+id/viewColor"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/view_corners">
+    </View>
+
+
+    <ImageView
+        android:id="@+id/image_view_fragment_event_detail_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+    <RelativeLayout
+        android:id="@+id/relative_fragment_event_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:layout_below="@id/image_view_fragment_event_detail_exit">
+
+        <ImageView
+            android:id="@+id/image_view_welcome_report_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:padding="12dp"
+            android:layout_alignBottom="@+id/text_view_fragment_event_detail_report_problem"
+            android:layout_alignTop="@+id/text_view_fragment_event_detail_report_problem"
+            app:srcCompat="@drawable/ic_report_problem_24dp" />
+
+        <TextView
+            android:id="@+id/text_view_fragment_event_detail_report_problem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAlignment="center"
+            android:layout_toRightOf="@+id/image_view_welcome_report_problem"
+            android:layout_toEndOf="@+id/image_view_welcome_report_problem"
+            android:text="@string/fragment_event_detail_place"
+            android:textSize="43sp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/text_view_fragment_event_detail_report_problem_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_fragment_event_detail"
+        android:text="@string/fragment_event_detail_place"
+        android:layout_marginBottom = "10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight = "16dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_view_fragment_event_detail_description_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_description_1"
+        android:layout_below="@id/text_view_fragment_event_detail_report_problem_2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight = "16dp"
+        android:layout_marginBottom = "4dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_view_fragment_event_detail_description_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_fragment_event_detail_description_1"
+        android:text="@string/text_view_description_2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight = "16dp"
+        android:layout_marginBottom = "10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_view_fragment_event_detail_description_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_fragment_event_detail_description_2"
+        android:text="@string/text_view_description_2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight = "16dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shadow_button">
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:id="@+id/button_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/report_accident"
+            android:textColor="@color/cardview_dark_background"
+            app:icon="@drawable/ic_flag_black_24dp"
+            app:iconTint="@color/cardview_dark_background" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
